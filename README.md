@@ -1,8 +1,18 @@
-# React + Vite
+ # Patients Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Management_App](https://github.com/JuanJefry23/Health_Management_App/assets/57572366/65a0f749-6394-4758-acd1-96a2719402fa)
 
-Currently, two official plugins are available:
+## About This Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a full-stack project, which is aimed to save time to different professionals in the health industry, improving communication with their patients and having all the tools that professionals need when they book a appointment to their patients.
+
+## Technologies Of This Project
+
+Frontend: Html, Css, React, Redux, Javascript, Jest, React-Testing-Library.
+
+Backend: C#, ASP.NET, .NET
+
+Database: Sql Server, AWS.
+
+### Link To The Deployed Project
+https://patients-management-app.netlify.app/
