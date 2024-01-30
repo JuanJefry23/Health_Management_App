@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.login{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-family: 'Inter', sans-serif; 
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/************** FINAL STYLE ******************/
+.loginPage__left{
+    border: 1px solid #FFF;
+    width: 50%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginPage__left__container{
+    border: 5px solid #1e2d4b;
+    border-radius: 20px;
+    color: #1e2d4b;
+    width: 60%;
+    height: 85%;
+    padding: 25px;
+    padding-top: 0;
+}
+
+.loginLink{
+    text-decoration: none;
+    color:#1e2d4b;
+}
+
+.loginPage__leftFirst{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginPage__leftFirst small:nth-child(3){
+    padding-top: 15px;
+}
+
+.loginPage__leftFirst small{
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: .85rem;
+}
+
+.loginPage__leftFirst input{
+    background-color: #eeeef0;
+    border:transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.loginPage__leftFirst h1{
+    font-size: clamp(1rem,4.5vw,2rem);
+    font-weight: 500;
+}
+
+.loginPage__left__container small:first-child{
+    font-weight: 700;
+    font-size: .8rem;
+    color:#1e2d4b
+}
+
+.loginPage__left__container p{
+    font-size: .75rem;
+    color: #656c7a;
+    padding-bottom: 5px;
+}
+
+.loginPage__left__container img{
+    width: 40%;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.loginPage__right{
+    width: 50%;
+    border-radius: 20px 0 0 20px;
+    background-color: #1e2d4b;
+    object-fit: contain;
+}
+
+.loginPage__right img{
+    height: 95%;
+}
+
+.loginPage__leftSecond{
+    padding: 10px;
+    padding-top: 0;
+    font-size: .75rem;
+    display: flex;
+    align-items: center;
+}
+
+.loginPage__leftSecond p:first-of-type{
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.loginPage__leftSecond p:nth-child(3){
+    padding-left: 82px;
+    font-weight: 700;
+    font-size: .8rem;
+    color:#1e2d4b
+}
+
+.loginPage__leftThird{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.loginPage__leftThird button:first-of-type, .linkToLogin{
+    background-color: #1e2d4b;
+    border-radius: 8px;
+    border: transparent;
+    color: #FFF;
+    /* padding: 3px; */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.loginPage__leftThird button:nth-child(2){
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #FFF;
+    border:2px solid #1e2d4b;
+}
+
+.loginPage__leftThird img{
+    object-fit: contain;
+    width: 70px;
+    height: 70px;
+    padding-left: 35px;
+}
+
+.loginPage__leftThird p{
+    padding-top: 15px;
+    padding-right: 50px;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #1e2d4b;
+}
+
+.loginPage__leftThird div{
+    height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:10px;
+}
+
+.loginPage__leftThird>button:hover, .linkToLogin:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    transition-delay: .1s 
+}
+
+.linkToLogin{
+    color: inherit;
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+/***************** MEDIA QUERIES: RESPONSIVE DESIGN ******************/
+@media only screen and (max-width: 1024px){
+
+    .loginPage__right{
+        display: none;
+        width: 0%;
+    }
+
+    .loginPage__left{
+        background-color: #1e2d4b;
+        width: 100%;
+        color: #FFF;
+    }
+    
+    .loginPage__left__container{
+        border: 5px solid #FFF;
+        width: 90%;
+        height: 75%;
+    }
+
+    .loginPage__left__container h1{
+        color: #FFF;
+        padding-top: 20px;
+        font-size: 3rem;
+    }
+
+    .loginPage__left__container p{
+        color: #FFF;
+        padding-bottom: 20px;
+    }
+
+    .loginPage__left__container small{
+        color:#FFF;
+        padding-bottom: 5px;
+    }
+
+    .loginPage__left__container input{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .loginPage__left__container button:first-of-type{
+        background-color: #FFF;
+        color: #1e2d4b;
+        font-weight: 700;
+        font-size: .9rem;
+        letter-spacing: 1px;
+    }
+
+    .loginPage__leftThird p{
+        color: #1e2d4b;
+        padding:0;
+        margin-top: 9px;
+        margin-right: 45px;
+        font-weight: 700;
+        font-size: .9rem;
+    }
+
+    .loginPage__leftFirst .loginLink{
+        text-decoration: none;
+        font-weight: 600;
+        color: #bdb8b8;
+        font-size: .95rem;
+    }
+
+    .loginPage__leftSecond .loginLink{
+        text-decoration: none;
+        font-weight: 600;
+        color: #bdb8b8;
+        font-size: .95rem;
+    }
+}

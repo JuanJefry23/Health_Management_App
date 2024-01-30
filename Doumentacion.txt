@@ -1,0 +1,1 @@
+Iconos: REACT ICONS, lo instalamos usando: yarn add react-icons

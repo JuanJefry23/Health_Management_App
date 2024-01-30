@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.createAccount__container{
+    padding: 10px;
+}
+
+.createAccount__generalContainer{
+    display: flex;
+}
+
+.createAccountPage__left__container{
+    border: 5px solid #1e2d4b;
+    border-radius: 20px;
+    color: #1e2d4b;
+    width: 60%;
+    height: 75%;
+    padding: 25px;
+    padding-top: 0;
+}
+
+.createAccountPage__right{
+    border-radius: 20px 0 0 20px;
+    background-color: #1e2d4b;
+    object-fit: contain;
+}
+
+.createAccountPage__right img{
+    height: 100%;
+    width: 100%;
+}
+
+.createAccount__title {
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: clamp(1.75rem,4.5vw,rem);
+}
+
+.createAccount__container p{
+    padding-bottom: 30px;
+    font-size: .85rem;
+    color: #1e2d4b;
+}
+
+.createAccount__inputs inputs{
+    width: 100%;
+}
+
+.createAccount__inputs input{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: transparent;
+    border-bottom: 1px solid #1e2d4b;
+}
+
+.createAccount__inputs input:last-of-type{
+    margin-bottom: 35px;
+}
+
+.createAccount__inputs input:focus{
+    border:1px solid #1e2d4b;
+    border-radius: 7px;
+    outline: none;
+}
+
+.createAccount__inputs input::placeholder{
+    font-size: 1rem;
+}
+
+.createAccount__container button{
+    padding: 10px;
+    width: 100%;
+    background-color: #1e2d4b;
+    color: #FFF;
+    font-family: 'Inter', sans-serif; 
+    font-size: 1rem;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #1e2d4b;
+}
+
+.createAccount__container p:last-of-type{
+    padding-top: 15px;
+    text-align: center;
+    font-size: .85rem;
+}
+
+.createAccount__container .loginLink{
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .createAccountPage__right{
+        display: none;
+    }
+
+    .createAccountPage__left__container{
+        height: 100vh;
+        padding-top: 175px;
+        width: 100%;
+        border: 1px solid #FFF;
+    }
+
+    .createAccount__title{
+        color: #FFF;
+        font-size: 2.5rem;
+        padding-bottom: 15px;
+    }
+
+    .createAccount__container{
+        padding: 35px;
+        border:2px solid #FFF;
+        border-radius: 10px;
+        height: 65%;
+    }
+
+    .createAccount__container p{
+        word-spacing: 1px;
+        color: #e2dbdb;
+        font-weight: 400;
+        font-size: .93rem;
+        
+    }
+
+    .createAccount__inputs input{
+        padding: 7px;
+        border-color: #1e2d4b;
+        border-radius: 7px;
+    }
+
+    .createAccount__container > button{
+        padding: 7px;
+        font-weight: 600;
+        background-color: #4670c5;
+        /* background-color: #3a66bd; */
+        color: #FFF;
+        font-weight: 600;
+    }
+
+    .createAccount__inputs input:last-of-type{
+        margin-bottom: 25px;
+    }
+
+    .createAccount__inputs input{
+        margin-bottom: 12px;
+    }
+
+    .createAccount__container .loginLink{
+        font-weight: 700;
+        padding-left: 5px;
+        font-size: 1rem;
+        color: #82a7eb;
+    }
+}
