@@ -4,7 +4,7 @@
 
 ## About This Project
 
-This is a full-stack project, which is aimed to save time to different professionals in the health industry, improving communication with their patients and having all the tools that professionals need when they book a appointment to their patients.
+This is a full-stack project, which is aimed to save time to different professionals in the health industry, improving communication with their patients and having all the tools that professionals need when they schedule an appointment to their patients.
 
 ## Technologies Of This Project
 
