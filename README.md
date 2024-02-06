@@ -8,7 +8,7 @@ This is a full-stack project, which is aimed to save time to different professio
 
 ## Technologies Of This Project
 
-Frontend: Html, Css, React, Redux, Javascript, 
+Frontend: Html, Css, React, Redux, Javascript, Webpack. 
 
 Testing Tools: Jest, React-Testing-Library.
 
