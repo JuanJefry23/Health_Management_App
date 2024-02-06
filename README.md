@@ -8,8 +8,8 @@ This is a full-stack project, which is aimed to save time to different professio
 
 ## Technologies Of This Project
 
-Frontend: Html, Css, React, Redux, Javascript, Jest, React-Testing-Library.
-
+Frontend: Html, Css, React, Redux, Javascript, 
+Testing Tools: Jest, React-Testing-Library.
 Backend: C#, ASP.NET, .NET
 
 Database: Sql Server, AWS.
