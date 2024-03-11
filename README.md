@@ -7,6 +7,8 @@
 This is a full-stack project, which is aimed to save time to different professionals in the health industry, improving communication with their patients and having all the tools that professionals need when they schedule an appointment to their patients. Once the appointment is schedules, an email is delivered to the patient with the data of their appointment.
 Also focusing in web accessibility and good practices to improve user experience.
 
+✔Web Accessibility  ✔UX/UI  ✔Testing
+
 ## Technologies Of This Project
 
 Frontend: Html, Css, React, Redux, Javascript, Webpack. 
