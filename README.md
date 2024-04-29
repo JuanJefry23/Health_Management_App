@@ -5,7 +5,7 @@
 ## About This Project
 
 This is a full-stack project, which is aimed to save time to different professionals in the health industry, improving communication with their patients and having all the tools that professionals need when they schedule an appointment to their patients. Once the appointment is schedules, an email is delivered to the patient with the data of their appointment.
-Also focusing in web accessibility and good practices to improve user experience. Email notification for patients. Dashboard to manage appointments. Responsive design for different screen devices. Modern design. Intuitive design, flow and interaction, intuitive dashboard,  all in one tool for different professionals.
+Also focusing in web accessibility and good practices to improve user experience. Email notification for patients. Dashboard to manage appointments. Responsive design for different screen devices. Modern design. Intuitive design, flow and interaction, intuitive dashboard,  all in one tool for different professionals in the healthcare industry.
 
 ✔Web Accessibility  ✔UX/UI  ✔Testing ✔Responsive Design  ✔Authentication  ✔Dashboard  ✔Email Notification ✔Accessibility ✔Modern Design 
 
