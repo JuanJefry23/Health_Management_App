@@ -11,6 +11,7 @@ Also focusing in web accessibility and good practices to improve user experience
 
 ✔Web Accessibility  ✔UX/UI  ✔Testing ✔Responsive Design  ✔Authentication  ✔Dashboard  ✔Email Notification ✔Accessibility ✔Modern Design 
 
+
 ## Technologies Of This Project
 
 Frontend: Html, Css (BEM), React, Redux, Javascript, Typescript, Webpack. 
