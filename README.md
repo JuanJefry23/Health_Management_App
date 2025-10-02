@@ -14,6 +14,7 @@ Also focusing in web accessibility and good practices to improve user experience
 
 ## Technologies Of This Project
 
+
 Frontend: Html, Css (BEM), React, Redux, Javascript, Typescript, Webpack. 
 
 Testing Tools: Jest, React-Testing-Library.
