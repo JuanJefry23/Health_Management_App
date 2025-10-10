@@ -11,6 +11,7 @@ This is a full-stack project, which is aimed to save time to different professio
 Also focusing in web accessibility and good practices to improve user experience. Email notification for patients. Dashboard to manage appointments. Responsive design for different screen devices. Modern design. Intuitive design, flow and interaction, intuitive dashboard,  all in one tool for different professionals in the healthcare industry.
 
 
+
 ✔Web Accessibility  ✔UX/UI  ✔Testing ✔Responsive Design  ✔Authentication  ✔Dashboard  ✔Email Notification ✔Accessibility ✔Modern Design 
 
 
