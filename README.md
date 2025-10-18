@@ -27,6 +27,7 @@ Frontend: Html, Css (BEM), React, Redux, Javascript, Typescript, Webpack.
 
 Testing Tools: Jest, React-Testing-Library.
 
+
 Backend: C#, ASP.NET, .NET
 
 Database: Sql Server, AWS.
