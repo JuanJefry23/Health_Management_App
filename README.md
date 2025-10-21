@@ -32,6 +32,7 @@ Testing Tools: Jest, React-Testing-Library.
 
 Backend: C#, ASP.NET, .NET
 
+
 Database: Sql Server, AWS.
 
 
