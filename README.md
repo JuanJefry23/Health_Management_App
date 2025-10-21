@@ -26,6 +26,7 @@ Also focusing in web accessibility and good practices to improve user experience
 Frontend: Html, Css (BEM), React, Redux, Javascript, Typescript, Webpack. 
 
 
+
 Testing Tools: Jest, React-Testing-Library.
 
 
