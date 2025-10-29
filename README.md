@@ -18,7 +18,8 @@ Also focusing in web accessibility and good practices to improve user experience
 ✔Testing
 ✔Responsive Design
 ✔Authentication
-✔Dashboard  ✔Email Notification ✔Accessibility ✔Modern Design 
+✔Dashboard  
+✔Email Notification ✔Accessibility ✔Modern Design 
 
 
 
