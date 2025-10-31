@@ -13,7 +13,8 @@ Also focusing in web accessibility and good practices to improve user experience
 
 
 
-✔Web Accessibility  
+✔Web Accessibility 
+
 ✔UX/UI
 ✔Testing
 ✔Responsive Design
